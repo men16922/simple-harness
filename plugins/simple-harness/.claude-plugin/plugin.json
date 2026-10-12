@@ -1,6 +1,6 @@
 {
   "name": "simple-harness",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "작업 기록·이어가기·저장·검수를 돕는 네 가지 스킬.",
   "author": { "name": "최병민" }
 }

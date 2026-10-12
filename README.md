@@ -22,6 +22,8 @@ Codex·Claude Code용 플러그인입니다. 작업을 기록해 이어가고, G
    > 하네스 준비해줘. 할 일을 적고 체크하는 웹페이지를 만들고 싶어.
 
 이후에는 하고 싶은 일만 말하면 됩니다.
+준비를 요청할 때만 지침과 기록 문서를 만듭니다. 다시 요청하면 기존 내용은 보존하고
+빠진 파일과 규칙 연결을 보완합니다. 준비에는 별도 스크립트나 Python 설치가 필요하지 않습니다.
 
 ## 평소에 하는 말
 
@@ -55,3 +57,10 @@ Codex·Claude Code용 플러그인입니다. 작업을 기록해 이어가고, G
 codex plugin marketplace upgrade simple-harness
 codex plugin remove simple-harness@simple-harness
 ```
+
+## 0.6.1 검증 — 2026-10-13
+
+- 두 strict 검증과 Codex marketplace 등록·설치 통과.
+- Codex 0.162.1·Claude Code 2.1.296에서 준비를 두 번 요청해 기존 내용 보존·누락 파일 복구·중복 방지 확인.
+- Codex가 파일 도구로 준비하고, 준비 요청 없는 검수·저장에서 문서를 생성하지 않는 것 확인.
+- macOS 로컬 검증이며 Windows 실제 실행·브라우저 검수는 미검증.
