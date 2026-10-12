@@ -1,0 +1,12 @@
+{
+  "name": "simple-harness",
+  "interface": { "displayName": "Simple Harness" },
+  "plugins": [
+    {
+      "name": "simple-harness",
+      "source": { "source": "local", "path": "./plugins/simple-harness" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
